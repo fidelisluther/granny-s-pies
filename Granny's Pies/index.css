@@ -1,0 +1,38 @@
+*{
+    margin: 2;
+}
+nav{
+    background-color: crimson;
+  padding: 1em;
+}
+.nav-link{
+    font-size: 1.5em;
+    color: rgb(252, 248, 248);
+    text-decoration-color:rgb(247, 146, 179) ;
+    text-align: center;
+    margin-right: 0.5em;
+    padding: 0.2em;
+
+}
+.nav-link:hover{
+    background-color: rgb(248, 109, 109) ;
+   
+}
+.header{
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+  }
+ .piegallery{
+    text-align: center;
+    font-size: 22pt ; 
+    color: #404040;
+ } 
+ .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
